@@ -13,8 +13,6 @@ public class UserDAO {
 	
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";  
     static final String DB_URL = "jdbc:mysql://127.0.0.1:3306/BBS?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"; 
-    		
-
     static final String USERNAME = "root";
     static final String PASSWORD = "00000000";
 
@@ -22,7 +20,6 @@ public class UserDAO {
 		try {
 			 Class.forName(JDBC_DRIVER);
 	         conn = DriverManager.getConnection(DB_URL,USERNAME,PASSWORD);
-	         System.out.println("\n- MySQL Connection");
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 		}
