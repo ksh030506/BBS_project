@@ -4,12 +4,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>JSP 게시판 웹 사이트 Index 페이지</title>
+<title>JSP 게시판 웹 사이트 LogoutAction</title>
 </head>
 <body>
-<script type="text/javascript">
-	location.href = "main.jsp";
-</script>
 
+<%
+	session.invalidate();
+%>
+<script type="text/javascript">
+	alert('로그아웃 성공!.');
+	location.href = 'main.jsp';
+</script>
+	
 </body>
 </html>
