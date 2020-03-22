@@ -11,9 +11,18 @@ public class Bbs {
 
 	private int bbsID;
 	private String bbsTitle;
+	private String UserID;
 	private String bbsDate;
 	private String bbsContent;
 	private int bbsAvailable;
+
+	public String getUserID() {
+		return UserID;
+	}
+
+	public void setUserID(String userID) {
+		UserID = userID;
+	}
 
 	public int getBbsID() {
 		return bbsID;
