@@ -11,6 +11,7 @@
 <head>
 <meta charset="UTF-8">
 <title>JSP 게시판 웹 사이트 LoginAction</title>
+<link rel="stylesheet" href="css/custom.css">
 </head>
 <body>
 
