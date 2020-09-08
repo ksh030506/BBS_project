@@ -1,5 +1,5 @@
 create table user (
-	userID int primary key not null,
+	userID varchar(20) primary key not null,
     userPassword varchar(20),
     userName varchar(20),
     userGender varchar(20),
